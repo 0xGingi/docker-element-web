@@ -15,7 +15,7 @@ services:
     volumes:
       - elementweb_config:/opt/element-web/config.json:ro
     ports:
-      - 80:8080/tcp
+      - 80:8070/tcp
 
 volumes:
   elementweb_config: {}
